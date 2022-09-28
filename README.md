@@ -14,7 +14,7 @@ Select the installation method that best suits your environment. We suggest crea
     make pip-install
     ```
 
-- poetry
+- poetry (>= 1.2.0)
 
     ```bash
     make poetry-install
