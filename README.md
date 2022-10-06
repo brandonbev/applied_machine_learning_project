@@ -29,7 +29,7 @@ make docker-build
 make docker-run
 ```
 
-Once the build is complete, docker should spin up a new container which hosts our Streamlit site. You can access the site by going to [localhost:8501](localhost:8501) in your browser.
+Once the build is complete, docker should spin up a new container which hosts our Streamlit site. You can access the site by going to [localhost:8501](https://localhost:8501) in your browser.
 
 ## License
 
