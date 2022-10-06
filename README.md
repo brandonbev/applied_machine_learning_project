@@ -20,6 +20,17 @@ Select the installation method that best suits your environment. We suggest crea
     make poetry-install
     ```
 
+## Docker
+
+We have included some helper functions to build and run the docker image for you. Run the following:
+
+```bash
+make docker-build
+make docker-run
+```
+
+Once the build is complete, docker should spin up a new container which hosts our Streamlit site. You can access the site by going to [localhost:8501](localhost:8501) in your browser.
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
